@@ -17,5 +17,6 @@ public:
     void setWorkDay(int);
     int getWorkDay();
     int getMonthlySalary();
+    void print(ostream &);
 };
 #endif

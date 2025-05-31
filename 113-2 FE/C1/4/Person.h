@@ -11,7 +11,6 @@ private:
 public:
     Person();
     Person(string, string);
-    ~Person();
     string getName();
     string getType();
     void print();

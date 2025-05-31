@@ -14,7 +14,7 @@ public:
     Book();
     Book(string, string, string, double);
     string getType();
-    double getPrice;
+    double getPrice();
     void print();
 };
 #endif

@@ -14,7 +14,7 @@ private:
 
 public:
     Staff(/* args */);
-    Staff(string, Birthday, Salary, int);
+    Staff(string, Birthday, Salary);
     void setName(string);
     string getName() const;
     void setBr(Birthday);

@@ -27,5 +27,5 @@ int Birthday::getDay()
 }
 void Birthday::print(ostream &o)
 {
-    o << year << "/" << month << "/" << day
+    o << year << "/" << month << "/" << day;
 }
