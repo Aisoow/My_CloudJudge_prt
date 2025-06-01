@@ -14,6 +14,15 @@ int main()
     io.close();
 
     Staff s[3];
+    ifstream inf("a.txt");
+    for (int i = 0; i < 3; i++)
+    {
+        string name;
+        int year, month, day;
+        int hours, workDay;
+        inf >> name >> year >> month >> day >> hours >> workDay;
+        s[i] = {name, Birthday(year, month, day), Salary(hours, workDay)};
+    }
 
     for (int i = 0; i < 3; ++i)
         s[i].print(cout);

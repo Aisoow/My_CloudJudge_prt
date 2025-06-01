@@ -2,6 +2,7 @@
 #define Staff_h
 #include <iostream>
 #include <fstream>
+#include <string>
 #include "Birthday.h"
 #include "Salary.h"
 using namespace std;
