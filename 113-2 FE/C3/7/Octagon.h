@@ -1,7 +1,7 @@
 #ifndef Octagon_h
 #define Octagon_h
 #include "Shape.h"
-class Octagon : Shape
+class Octagon : public Shape
 {
 private:
     double length;

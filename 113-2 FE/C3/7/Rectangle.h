@@ -1,7 +1,7 @@
 #ifndef Rectangle_h
 #define Rectangle_h
 #include "Shape.h"
-class Rectangle : Shape
+class Rectangle : public Shape
 {
 private:
     double height;
