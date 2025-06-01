@@ -28,7 +28,8 @@ double Rectangle::getPerimeter()
 }
 void Rectangle::print()
 {
-    cout << "Rectangle Height:" << height
+    cout << fixed << setprecision(2)
+         << "Rectangle Height:" << height
          << " Weight:" << weight
          << " Perimeter:" << getPerimeter()
          << " Color:" << getColor() << endl;

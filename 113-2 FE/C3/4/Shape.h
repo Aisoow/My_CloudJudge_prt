@@ -12,5 +12,7 @@ public:
     Shape(/* args */);
     void setColor(string);
     string getColor();
+    virtual double getArea() = 0;
+    virtual double getPerimeter() = 0;
 };
 #endif

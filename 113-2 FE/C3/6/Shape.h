@@ -2,6 +2,7 @@
 #define Shape_h
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 using namespace std;
 class Shape
 {
@@ -12,5 +13,7 @@ public:
     Shape(/* args */);
     void setColor(string);
     string getColor();
+    virtual double getArea() = 0;
+    virtual void toString() = 0;
 };
 #endif

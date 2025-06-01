@@ -18,6 +18,7 @@ double Octagon::getPerimeter()
 }
 void Octagon::print()
 {
-    cout << "Octagon Length:" << length << " Perimeter:"
+    cout << fixed << setprecision(2)
+         << "Octagon Length:" << length << " Perimeter:"
          << getPerimeter() << " Color:" << getColor() << endl;
 }
